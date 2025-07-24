@@ -1,0 +1,22 @@
+:root {
+  --color-green: #00BA7C;
+  --color-dark-grey: #394B41;
+  --color-light-grey: #9CB0A4;
+  --color-light-blue: #00B5FF;
+  --color-dark-blue: #0080C7;
+  --color-bg: #394B41;
+  --color-text: #F8F8F8;
+}
+body {
+  font-family: 'Inter', sans-serif;
+  background: var(--color-bg);
+  color: var(--color-text);
+  margin: 0;
+  padding: 0;
+}
+html, body, #__next {
+  height: 100%;
+}
+* {
+  box-sizing: border-box;
+}
